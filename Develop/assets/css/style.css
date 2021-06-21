@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Background of full page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header w/ nav section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,35 +48,45 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+ /* Hero image sizing and placement */
+.hero img{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main body of content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-info img {
+    max-height: 200px;
+}
+
+.content-info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Benefits of use side column */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +114,7 @@ p {
     max-width: 150px;
 }
 
-.content-info {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-info img {
-    max-height: 200px;
-}
-
-.content-info h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer section */
 .footer {
     padding: 30px;
     clear: both;
@@ -129,4 +124,15 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Reusable styling */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
